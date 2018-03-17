@@ -1,5 +1,6 @@
 package com.example.nyssa;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -94,6 +95,8 @@ public class signUp extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(getApplicationContext(),"Successfully Registered!", Toast.LENGTH_SHORT).show();
+                            Intent myintent = new Intent(signUp.this,signIn.class);
+                            Bungee.zoom(signUp.this);
                         } else {
                             if (task.getException() instanceof FirebaseAuthUserCollisionException){
                                 Toast.makeText(getApplicationContext(),"An account already exists with this email ID", Toast.LENGTH_SHORT).show();

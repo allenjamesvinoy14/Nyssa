@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638442637321",
+    "firebase_url": "https://nyssa-d2400.firebaseio.com",
+    "project_id": "nyssa-d2400",
+    "storage_bucket": "nyssa-d2400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638442637321:android:eaad17170573ecf1",
+        "android_client_info": {
+          "package_name": "com.example.nyssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638442637321-82moo1rsl6h2m7980k79u203k60p2r71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyssa",
+            "certificate_hash": "af2c23725e251ca7a9498a2d111c279cbeea2ed9"
+          }
+        },
+        {
+          "client_id": "638442637321-88b7k3beqcpodvkf3eqstd0fj3fj0gka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBneijeTf3bynnmXRbxQGerlcTAF2ATPI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638442637321-88b7k3beqcpodvkf3eqstd0fj3fj0gka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

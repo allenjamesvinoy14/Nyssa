@@ -110,7 +110,7 @@
                 android:ems="10"
                 android:gravity="center"
                 android:hint="Confirm Password"
-                android:inputType="textEmailAddress"
+                android:inputType="textPassword"
                 android:paddingBottom="12dp"
                 android:paddingTop="12dp" /></LinearLayout>
 

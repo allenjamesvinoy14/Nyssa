@@ -71,7 +71,7 @@ public class signIn extends AppCompatActivity {
                 SignIn.setText("Login");
                 if (task.isSuccessful()) {
                     //Sign In
-                    Intent mainIntent = new Intent(signIn.this, clickImg.class);
+                    Intent mainIntent = new Intent(signIn.this, MainActivity.class);
                     startActivity(mainIntent);
                     Bungee.inAndOut(signIn.this);
                     finish();

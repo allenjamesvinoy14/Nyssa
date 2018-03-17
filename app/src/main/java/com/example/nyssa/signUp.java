@@ -96,6 +96,7 @@ public class signUp extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(getApplicationContext(),"Successfully Registered!", Toast.LENGTH_SHORT).show();
                             Intent myintent = new Intent(signUp.this,signIn.class);
+                            startActivity(myintent);
                             Bungee.zoom(signUp.this);
                         } else {
                             if (task.getException() instanceof FirebaseAuthUserCollisionException){
